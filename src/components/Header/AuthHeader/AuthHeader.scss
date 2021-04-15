@@ -1,0 +1,33 @@
+.auth-header {
+  padding: 15px 0;
+}
+
+.auth-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.auth-header__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.auth-header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 175px;
+  height: 59px;
+  color: #ffffff;
+  background: #407df4;
+  border-radius: 15px;
+  margin-left: 20px;
+  font-size: 1.8rem;
+  &:hover {
+    text-decoration: none;
+  }
+  &:active {
+    opacity: .6;
+  }
+}

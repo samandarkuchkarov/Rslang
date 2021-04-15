@@ -1,0 +1,73 @@
+.card{
+    width: 400px;
+    height: 350px;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    margin: 20px auto;
+    border-radius: 21px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.label{
+    width: 20px;
+    padding: 0px;
+    padding-top: 4px;
+    margin-right: 5px;
+}
+.labels{
+ display: flex;
+ margin-left: 30px;
+ height: 110px;
+ transition: 0.3s;
+}
+.arrowDown {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid red;
+}
+.triangle{
+    transition: 0.3s;
+}
+.text{
+    margin-top: -4px;
+    padding-top: 2px;
+    color: #fff;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    word-spacing: -11px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    letter-spacing: -11px;
+}
+.title{
+    height: 133.33px;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.title h2{
+    color:#fff;
+    font-size: 3rem;
+    margin: 0 0 0 0;
+}
+.open{
+    display: flex;
+    margin-left: calc(100% - 65px);
+    margin-top: 40px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    background: blueviolet;
+    color: #fff;
+    height: 38px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.open h3{
+    margin: 0 0 0 0;
+}

@@ -1,0 +1,98 @@
+.learning {
+  &__greeting {
+    padding: 0 50px;
+    color: #3e384e;
+
+    h1 {
+      font-size: 5rem;
+      font-weight: 800;
+
+      span {
+        color: #f1e134;
+      }
+    }
+
+    p {
+      font-size: 2rem;
+    }
+  }
+
+  &__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 200px;
+    padding: 20px;
+    margin-top: 48px;
+    text-align: center;
+    color: #3e384e;
+
+    &-left {
+      font-size: 3.5rem;
+    }
+
+    &-right {
+      font-size: 2rem;
+
+      span {
+        color: #407DF4;
+      }
+
+      .progress {
+        height: 16px;
+      }
+    }
+  }
+
+  &__bot {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    &-col {
+      flex: 0 0 32%;
+      max-width: 32%;
+      font-size: inherit;
+
+      &--card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        height: 100%;
+        max-width: 100%;
+        font-size: inherit;
+
+        h3 {
+          font-size: 2.5em;
+          font-weight: 600;
+        }
+
+        p {
+          font-size: 1.6em;
+          max-width: 200px;
+        }
+
+        .button {
+          width: 200px;
+        }
+
+        .progress {
+          width: 100%;
+          height: 12px;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}
+
+
+@media(max-width: 767px) {
+  .learning {
+    &__bot {
+      font-size: 8px;
+    }
+  }
+}

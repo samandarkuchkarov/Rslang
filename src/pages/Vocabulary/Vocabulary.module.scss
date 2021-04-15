@@ -1,0 +1,64 @@
+.page{
+    background-color: #edf0f6;
+}
+.container{
+    width: 1280px;
+    margin: 89px auto 0!important;
+}
+.label{
+    margin-top: 20px;
+    display: flex;
+   justify-content: space-between;
+}
+.labelText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33333%;
+    height: 70px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color .3s,border-color .3s;
+    margin:10px
+}
+.image{
+    width: 56px;
+    height: 56px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+.icon{
+    font-size: 25px !important;
+}
+.icon:hover{
+    fill:#000 !important;
+}
+.word{
+    color: #407df4;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.translate{
+    font-size: 1rem;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #212529;
+}
+@media(max-width:1280px){
+    .container{
+        width: 768px;
+    }
+}
+@media(max-width:768px){
+    .container{
+        width: 500px;
+    }
+}

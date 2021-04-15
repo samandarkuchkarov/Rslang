@@ -1,0 +1,21 @@
+.exit{
+    font-size: 27px !important;
+    margin-top: 8px;
+    margin-left: calc(100% - 52px);
+    background-color: #ffbf6a;
+    border-radius: 26px;
+    height: 35px !important;
+    width: 36px !important;
+    transition: 0.3s !important;
+
+}
+.exit:hover{
+    background-color: #ffd0a6
+}
+.title{
+    text-align: center;
+    font-size: 25px;
+}
+span {
+    font-size: 16px !important;
+}

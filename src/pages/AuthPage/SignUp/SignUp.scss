@@ -1,0 +1,65 @@
+.auth__container {
+    height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.auth__content {
+    max-width: 600px;
+}
+
+.auth__content h2 {
+    font-size: 5.6rem;
+    font-weight: 900;
+    line-height: 1.3;
+}
+
+.form {
+    max-width: 430px;
+    width: 100%;
+    padding: 60px 55px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form__subheading {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    color: #b9b9b9;
+}
+
+.form__link {
+    color: #407df4;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__btn {
+    height: 50px;
+    font-size: 1.2rem !important;
+    background: #407df4 !important;
+    margin-top: 30px !important;
+}
+
+.form {
+    .MuiTextField-root {
+        margin-top: 20px;
+    }
+    .MuiInputBase-root {
+        font-size: 1.6rem;
+    }
+    .MuiFormLabel-root {
+        font-size: 1.3rem;
+    }
+}

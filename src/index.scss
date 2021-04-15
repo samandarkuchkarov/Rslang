@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  font-family: 'Khula', sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #EDF0F6;
+}
+
+.body {
+  flex: 1;
+  font-family: 'Noto Sans KR', Arial, sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+.button {
+  background-color: #407df4;
+  color: #fff;
+  padding: 15px;
+  font-size: 2em;
+  border-radius: 15px;
+  transition: .2s opacity ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+    transition: .2s opacity ease-in-out;
+  }
+}
+
+.blue-text {
+  color: #407df4;
+}
+
+.yellow-span {
+  color: #f1e134;
+}
+
+.card-container {
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 1px 5px 14px rgb(55 114 227 / 10%);
+}
+.popup{
+  z-index: 3;
+  width: 500px;
+  position: fixed;
+  height: 230px;
+  background:#ecf1f5;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 21px;
+}
+.window{
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.7);
+}
+.none{
+  display: none;
+}
