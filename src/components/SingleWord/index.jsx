@@ -23,10 +23,10 @@ export default function SingleWord() {
     currentGroup
   } = React.useContext(Context)
   const [status, setStatus] = React.useState(false)
-  const word = currentGroup && currentGroup[currentIndex]
+  const word = currentGroup && currentGroup[currentIndex[currentIndex.length-1]]
 
-  console.log(corrects)
-  console.log(errors)
+  console.log(currentIndex)
+  console.log(word)
 
   const cardRef = React.useRef()
   const meaningRef = React.useRef()
@@ -58,7 +58,8 @@ export default function SingleWord() {
   }
 
   const nextWordHandler = () => {
-    setCurrentIndex(prev => prev + 1)
+    console.log(currentIndex)
+    setCurrentIndex(prev => Number(prev[prev.length-1]) + 1)
     cardRef.current.classList.remove('correct')
     setCurrentValue('')
     setStatus(false)
