@@ -1,10 +1,10 @@
 import React from 'react';
-import './Main.scss';
-
+import styles from  './Main.module.scss';
+import {useHistory} from 'react-router-dom'
 export default function Main() {
+  useHistory().push('/sign-in')
   return (
-    <div>
-      Main page
+    <div className={styles.container}>
     </div>
   );
 }

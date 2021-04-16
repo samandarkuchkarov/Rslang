@@ -23,9 +23,9 @@ const list = [
     to: '/vocabulary'
   },
   {
-    title: 'Мини-игры',
-    img: MiniGamesIcon,
-    to: '/learning'
+    title: 'Учебник',
+    img: StatisticIcon,
+    to: '/textbook/01'
   },
  
 ];

@@ -44,7 +44,7 @@ const TextBookCard = () => {
         ))}
             </div>
             <div className = {styles.title}>
-                <h2>Text book</h2>
+                <h2>Учебник</h2>
             </div>
             <div onClick={(e)=>open(e)} className = {styles.open}><h3>Open</h3></div>
         </div>

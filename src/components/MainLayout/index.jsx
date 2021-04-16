@@ -8,7 +8,10 @@ import PropTypes from 'prop-types';
 
 export default function MainLayout({ children }) {
   const location = useLocation();
-  const { isAuth } = React.useContext(Context); // '' - you can see header when user loggined
+  let { isAuth } = React.useContext(Context); // '' - you can see header when user loggined
+  if(isAuth==='false'){
+    isAuth=false
+  }
   return (
     <>
       <header>

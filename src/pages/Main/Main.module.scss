@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    align-items: center;
+    height: 800px;
+    background-size: cover;
+    background-image: url('https://static01.nyt.com/images/2017/05/14/business/14EDGOOGLE-print/00EDGOOGLE1-superJumbo.jpg');
+}
+
+.block{
+margin-left: 60px;
+}
+.main{
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   background-image:url('https://previews.123rf.com/images/serg036/serg0361706/serg036170600202/79472948-white-hexagons-abstract-background-image-3d-illustration-works-for-text-and-website-background-print.jpg');
+    border-radius: 20px;
+    background-size: cover;
+}
+.text{
+    width: 194px;    
+}
+.text>h1{
+    font-size: 56px;
+    font-family: cursive;
+    font-weight: normal;
+}
+
+.wrapper{
+    width: 1280px;
+    margin: 0 auto;
+}
