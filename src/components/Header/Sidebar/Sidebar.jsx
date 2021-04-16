@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link,useHistory } from 'react-router-dom';
 
 import { ReactComponent as LogoutIcon } from '../../../assets/img/icons/logout.svg';
 import { ReactComponent as LearnIcon } from '../../../assets/img/sidebar/1.svg';
@@ -31,7 +31,12 @@ const list = [
 ];
 
 const Sidebar = () => {
+  const history = useHistory()
   const [open, setOpen] = useState(false);
+  const logout = () =>{
+    localStorage.setItem('isAuth',false)
+    history.go(0)
+  }
   return (
     <div className={open ? 'sidebar sidebar-opened' : 'sidebar'}>
       <div className="sidebar__title">
@@ -56,7 +61,7 @@ const Sidebar = () => {
       </div>
       <div className="sidebar__footer">
         <div className="sidebar__footer logout">
-          <LogoutIcon className="logout-icon" />
+          <LogoutIcon onClick={logout} className="logout-icon" />
           <span>Выйти</span>
         </div>
       </div>

@@ -21,6 +21,7 @@ const SignIn = (props) => {
 			}
 		}).then((response) => {
       localStorage.setItem("token", response.data.token)
+      localStorage.setItem("name", response.data.name)
 		  console.log(response)
       localStorage.setItem('userID',response.data.userId)
 			setAuth(true)

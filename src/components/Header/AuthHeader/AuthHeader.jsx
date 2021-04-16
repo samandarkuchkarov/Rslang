@@ -15,6 +15,7 @@ const AuthHeader = () => {
       setIsSignUp(false)
     }
   }, [isSignUp, location]);
+  console.log(isSignUp)
 
   return (
     <div className="auth-header">
